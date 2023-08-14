@@ -12,10 +12,13 @@ function App() {
     <Router>
       <Switch>
 
+        <Route exact path="/" component={LogIn} />
+        <Route path="/unsuccessful" component={LogInUnsuc} />
+        <Route path="/logout" component={LogOut} />
 
       </Switch>
     </Router>
-    
+
   );
 }
 
