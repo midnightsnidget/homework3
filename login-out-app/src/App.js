@@ -14,7 +14,7 @@ function App() {
 
         <Route exact path="/" component={LogIn} />
         <Route path="/unsuccessful" component={LogInUnsuc} />
-        <Route path="/logout" component={LogOut} />
+        <Route path="/welcome" component={LogOut} />
 
       </Switch>
     </Router>
