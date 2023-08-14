@@ -9,8 +9,12 @@ import {
 
 function App() {
   return (
-    
+    <Router>
+      <Switch>
 
+
+      </Switch>
+    </Router>
     
   );
 }
