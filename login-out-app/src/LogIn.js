@@ -17,7 +17,7 @@ function Login() {
 
     return (
         <div>
-            <h1>LogIn Page</h1>
+            <h1>User Login</h1>
             
             <input
             type="text"
@@ -32,6 +32,10 @@ function Login() {
             value={password}
             onChange={(event) => setPassword(event.target.value)}
             />
+
+            <button onClick={handleLogin}>
+                Login
+            </button>
 
         </div>
     )
