@@ -13,5 +13,26 @@ function Login() {
             history.push('unsuccessful');
         }
 
-        };
-    }
+     };
+
+    return (
+        <div>
+            <h1>LogIn Page</h1>
+            
+            <input
+            type="text"
+            placeholder="Username"
+            value={username}
+            onChange={(event) => setUsername(event.target.value)}
+            />
+
+            <input
+            type="password"
+            placeholder="Password"
+            value={password}
+            onChange={(event) => setPassword(event.target.value)}
+            />
+
+        </div>
+    )
+}
