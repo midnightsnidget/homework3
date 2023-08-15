@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import Login from './LogIn';
 import LogInUnsuc from './LogInUnsuc';
-
+import Welcome from './Welcome';
 
 import {
    BrowserRouter as Router, 
