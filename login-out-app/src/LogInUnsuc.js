@@ -17,24 +17,10 @@ function Login() {
 
     return (
         <div>
-            <h1>User Login</h1>
-            
-            <input
-            type="text"
-            placeholder="Username"
-            value={username}
-            onChange={(event) => setUsername(event.target.value)}
-            />
-
-            <input
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(event) => setPassword(event.target.value)}
-            />
-
-            <button onClick={handleLogin}>
-                Login
+            <h2> Login unsuccessful </h2>
+            <p> Click here to go back to login page:</p>
+            {/* <button onClick={handleLogout}>
+               Return to login page */}
             </button>
 
         </div>
