@@ -1,0 +1,14 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #e94196;
+    box-shadow: 0 2px 4px rgb(88, 8, 44);
+  }
+  
+  .header {
+    background-color: #e94196;
+    padding: 10px;
+    text-align: center;
+  }
+  
