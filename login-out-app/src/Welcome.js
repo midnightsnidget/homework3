@@ -17,8 +17,7 @@ function Welcome() {
                 Sign Out
             </button>
         </div>
-    )
-
+    );
 }
 
 export default Welcome;
