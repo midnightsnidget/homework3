@@ -7,7 +7,7 @@ function Login() {
     const navigate = useNavigate();
 
     const handleLogin = () =>{
-        if (username === 'correctUsername' && password === 'correctPassword') {
+        if (username === 'User' && password === 'Pass') {
             navigate('/welcome');
         } else {
             navigate('/unsuccessful');
