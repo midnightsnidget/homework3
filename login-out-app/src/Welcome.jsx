@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import "./Layout.css";
 
 function Welcome() {
     const navigate = useNavigate();
@@ -9,13 +10,21 @@ function Welcome() {
     };
 
     return (
-        <div>
-            <h1> Welcome! </h1>
-            <h3> You have successfully logged in </h3>
-            <p> Click here to sign out:</p>
-            <button onClick={handleLogout}>
-                Sign Out
-            </button>
+        <div className="container">
+            <header className="header">
+                <h1> Welcome! </h1>
+            </header>
+            <main>
+                <div>
+                    <p> You have successfully logged in </p>
+                    <p> Click here to sign out:</p>
+                </div>
+                <div className="button-container">
+                    <button onClick={handleLogout}>
+                        Sign Out
+                    </button>
+                </div>
+            </main>
         </div>
     );
 }
