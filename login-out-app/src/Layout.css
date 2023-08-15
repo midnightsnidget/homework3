@@ -23,6 +23,10 @@ label {
     margin-top: 10px;
   }
 
+p {
+    color: #e94196;
+}
+
 input[type="text"] {
     color: #4b2e3d;
     background-color:#f4ed95 ;
@@ -38,3 +42,11 @@ input[type="password"] {
     border: 3px solid #ffec00;
     border-radius: 3px;
 }  
+
+button {
+    color: #4b2e3d;
+    background-color:#f4ed95 ;
+    margin-top: 4px;
+    border: 3px solid #ffec00;
+    border-radius: 3px; 
+}
