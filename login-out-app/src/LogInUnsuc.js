@@ -13,12 +13,12 @@ function LogInUnsuc() {
             <h2> Login unsuccessful </h2>
             <p> Your username or password may be incorrect</p>
             <p> Click here to return to the login page:</p>
-            {/* <button onClick={handleLogout}>
-               Return to login page */}
+            <button onClick={handleGoToLogin}>
+               Return to login page
             </button>
 
         </div>
     );
 }
 
-export default Login;
+export default LogInUnsuc;
