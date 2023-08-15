@@ -1,11 +1,11 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Welcome() {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleLogout = ()=> {
-        history.push('/');
+        navigate('/');
     };
 
     return (
