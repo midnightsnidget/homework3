@@ -14,7 +14,8 @@
     text-align: center;
   }
 
- label {
+label {
+    color: #e94196;
     display: block;
     margin-top: 10px;
   }
