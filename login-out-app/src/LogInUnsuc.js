@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { useHistory } from "react-router-dom";
 
 function LogInUnsuc() {
     const history = useHistory();
 
     const handleGoToLogin = () =>{
-        
-
+        history.push('/');
      };
 
     return (
