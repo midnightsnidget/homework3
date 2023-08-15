@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Layout.css";
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -15,29 +16,33 @@ function Login() {
      };
 
     return (
-        <div>
-            <h1>User Login</h1>
-            <div>
-                <label htmlFor="username">Enter username:</label>
-                <input
-                type="text"
-                placeholder="Username"
-                value={username}
-                onChange={(event) => setUsername(event.target.value)}
-                />
-            </div>
-            <div>
-            <label htmlFor="password">Enter password:</label>
-                <input
-                type="password"
-                placeholder="Password"
-                value={password}
-                onChange={(event) => setPassword(event.target.value)}
-                />
-            </div>
-            <button onClick={handleLogin}>
-                Login
-            </button>
+        <div className="container">
+                <header className="header">
+                    <h1>User Login</h1>
+                </header>
+                <main>
+                    <div>
+                        <label htmlFor="username">Enter username:</label>
+                        <input
+                        type="text"
+                        placeholder="Username"
+                        value={username}
+                        onChange={(event) => setUsername(event.target.value)}
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor="password">Enter password:</label>
+                            <input
+                            type="password"
+                            placeholder="Password"
+                            value={password}
+                            onChange={(event) => setPassword(event.target.value)}
+                            />
+                    </div>
+                    <button onClick={handleLogin}>
+                        Login
+                    </button>
+                </main>
         </div>
     );
 }
