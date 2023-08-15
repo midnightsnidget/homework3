@@ -16,7 +16,6 @@ function LogInUnsuc() {
             <button onClick={handleGoToLogin}>
                Return to login page
             </button>
-
         </div>
     );
 }
