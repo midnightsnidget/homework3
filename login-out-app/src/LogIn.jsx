@@ -1,16 +1,16 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleLogin = () =>{
         if (username === 'correctUsername' && password === 'correctPassword') {
-            history.push('/welcome');
+            navigate('/welcome');
         } else {
-            history.push('unsuccessful');
+            navigate('/unsuccessful');
         }
      };
 
