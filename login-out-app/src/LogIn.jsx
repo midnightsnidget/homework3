@@ -39,9 +39,11 @@ function Login() {
                             onChange={(event) => setPassword(event.target.value)}
                             />
                     </div>
-                    <button onClick={handleLogin}>
-                        Login
-                    </button>
+                    <div className="button-container">
+                        <button onClick={handleLogin}>
+                            Login
+                        </button>
+                    </div>
                 </main>
         </div>
     );
