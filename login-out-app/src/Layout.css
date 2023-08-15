@@ -6,6 +6,9 @@
     box-shadow: 0 2px 4px rgb(88, 8, 44);
   }
   
+.button-container {
+    margin-top: 10px;
+  }
   
 .header {
     color: white;
