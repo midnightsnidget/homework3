@@ -19,4 +19,19 @@ label {
     display: block;
     margin-top: 10px;
   }
-  
+
+input[type="text"] {
+    color: #4b2e3d;
+    background-color:#f4ed95 ;
+    margin-top: 4px;
+    border: 3px solid #ffec00;
+    border-radius: 3px;
+}  
+
+input[type="password"] {
+    color: #4b2e3d;
+    background-color:#f4ed95 ;
+    margin-top: 4px;
+    border: 3px solid #ffec00;
+    border-radius: 3px;
+}  
