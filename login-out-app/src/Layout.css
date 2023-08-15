@@ -6,10 +6,16 @@
     box-shadow: 0 2px 4px rgb(88, 8, 44);
   }
   
-  .header {
+  
+.header {
     color: white;
     background-color: #e94196;
     padding: 10px;
     text-align: center;
+  }
+
+ label {
+    display: block;
+    margin-top: 10px;
   }
   
