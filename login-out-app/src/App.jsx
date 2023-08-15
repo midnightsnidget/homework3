@@ -7,17 +7,17 @@ import Welcome from './Welcome';
 import {
    BrowserRouter as Router, 
    Route, 
-   Switch 
+   Routes, 
 } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/" component={Login} />
-        <Route path="/unsuccessful" component={LogInUnsuc} />
-        <Route path="/welcome" component={Welcome} />
-      </Switch>
+      <Routes> 
+        <Route path="/" element={<Login />} /> 
+        <Route path="/unsuccessful" element={<LogInUnsuc />} />
+        <Route path="/welcome" element={<Welcome />} />
+      </Routes>
     </Router>
   );
 }
