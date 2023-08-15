@@ -14,11 +14,9 @@ function App() {
   return (
     <Router>
       <Switch>
-
         <Route exact path="/" component={Login} />
         <Route path="/unsuccessful" component={LogInUnsuc} />
         <Route path="/welcome" component={Welcome} />
-
       </Switch>
     </Router>
   );
