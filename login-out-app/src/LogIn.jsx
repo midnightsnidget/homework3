@@ -18,6 +18,7 @@ function Login() {
         <div>
             <h1>User Login</h1>
             <div>
+                <label htmlFor="username">Enter username:</label>
                 <input
                 type="text"
                 placeholder="Username"
@@ -26,6 +27,7 @@ function Login() {
                 />
             </div>
             <div>
+            <label htmlFor="password">Enter password:</label>
                 <input
                 type="password"
                 placeholder="Password"
